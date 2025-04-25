@@ -1,0 +1,59 @@
+header{
+    background-color: #2a32ab;
+    color: white;
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+table{
+    border-color: #2a32ab;
+    border-collapse: collapse;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+}
+
+/* Navegación */
+nav{
+    background-color: #5476f7;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 100px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+/* Estilos para las tablas dentro del main */
+main {
+    flex: 1
+}
+
+.tabla-destinos {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tabla-destinos thead {
+    background-color: #f2f2f2;
+}
+
+.tabla-destinos th, 
+.tabla-destinos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tabla-destinos tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  

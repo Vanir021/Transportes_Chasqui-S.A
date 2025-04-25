@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transportes Chasqui S. A.</title>
+    <link rel="stylesheet" href="css/style_contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="icon" type="image/ico" href="Vahit.ico">
+</head>
+<body>
+    <header>
+        <table>
+            <tbody>
+                <tr>
+                    <td><img src="logo.png" alt=""></td>
+                    <td><h1>Transportes Chasqui S. A.</h1>
+                    <h6>¡Más rápido, más seguro!</h6></td>
+                </tr>
+            </tbody>
+        </table>
+    </header>
+    <nav>
+        <a href="index.html" > VOLVER</a>
+    </nav>
+
+    <main>
+        <h2>Contáctenos</h2>
+        <form action="enviar_contacto.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+        <audio id="volumen" src="midnight-whispers-lo-fi-background-music-for-video-1-minute-321903.mp3"
+        autoplay="True" controls></audio>
+        <script>
+            window.onload = function () {
+                const audio = document.getElementById("volumen");
+                audio.volume = 0.12; // Volumen bajo (20%)
+            };
+        </script>
+    </main>
+    <footer class="pie-pagina">
+        <div class="enlaces-pie">
+            <a href="Libro de reclamaciones.html">LIBRO DE RECLAMACIONES</a>
+            <a href="contactenos.html">CONTACTENOS</a>
+            <a href="acerca.html">ACERCA DE</a>
+        </div>
+        <p>&copy; Proyecto de Taller de Programación Web - Sección 20342</p>
+        <a href="https://github.com/Vanir021/Transportes_Chasqui-S.A" target="_blank" rel="noopener noreferrer">
+            <img src="image.png"
+                 alt="GitHub" width="20" height="20" style="vertical-align: middle;">
+            GitHub
+        </a>
+    </footer>
+    
+</body>
+</html>
